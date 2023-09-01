@@ -28,8 +28,15 @@ Grandes telas: acima de 1200px.  */
         float: right;
         width:70%;
     }
-}
 
+    #formulario > h1{
+        font-size: 2em;
+    }
+
+    #formulario > p {
+        font-size: 1.2em;
+    }
+}
 
 
 /* Desktops e telas grandes*/
@@ -42,13 +49,19 @@ Grandes telas: acima de 1200px.  */
         width:990px
     }
     section#login > div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#formulario{
-        float:right;
+        float:left;
         width:50%;
+    }
+    #formulario > h1{
+        font-size: 2em;
+    }
+    #formulario > p {
+        font-size: 1.2em;
     }
 }
