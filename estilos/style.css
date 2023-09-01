@@ -38,6 +38,9 @@ main{
     overflow: hidden; /* para esconder o ue esta fora da borda */
     text-align: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.449) ;
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease; /* Ease é para suavisar durante a animação */
 }
 
 div#imagem{
@@ -50,7 +53,7 @@ div#imagem{
 
 }
 
-#formulario{
+div#formulario{
     display: block;
     padding: 10px;
 }
