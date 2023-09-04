@@ -36,6 +36,26 @@ Grandes telas: acima de 1200px.  */
     #formulario > p {
         font-size: 1.2em;
     }
+
+
+    
+    div.campo >span {
+    color:white;
+    font-size: 2em;
+    width: 40px;
+    
+}
+    
+    div.campo >input {
+        width: 92%;
+        height: 45px;
+        transform: translateY(-8px);
+        border:none;
+        border-radius: 7px;
+        
+    }
+
+
 }
 
 
@@ -64,4 +84,21 @@ Grandes telas: acima de 1200px.  */
     #formulario > p {
         font-size: 1.2em;
     }
+
+        
+       
+    div.campo >span {
+        color:white;
+        font-size: 2em;
+        width: 40px;
+        
+    }
+        
+        div.campo >input {
+            width: 90%;
+            height: 45px;
+            transform: translateY(-8px);
+            border:none;
+            border-radius: 7px;
+        }
 }
