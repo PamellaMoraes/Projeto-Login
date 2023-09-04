@@ -87,6 +87,7 @@ div.campo >span {
 }
 
 div.campo >input {
+    background-color: #57c1bf;
     text-align: center;
     width: 78%;
     height: 45px;
@@ -95,6 +96,12 @@ div.campo >input {
     border-radius: 7px;
     
 }
+
+div.campo >input:focus-within{
+    background-color: white;
+    outline: none;
+}
+
 
 form > input[type=submit] {
     display: block;
