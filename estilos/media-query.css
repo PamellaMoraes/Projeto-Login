@@ -9,7 +9,7 @@ Grandes telas: acima de 1200px.  */
 
 /* As demais Medias Queries */
 
-/*Tablets e Ipads */
+/*Tablets e Ipads e Desktops */
 @media screen and (min-width:1200px) and (max-width:2400px) {
     html,body{
        background-image: linear-gradient(to top,#49a09d, #5f2c82);
@@ -39,7 +39,7 @@ Grandes telas: acima de 1200px.  */
 }
 
 
-/* Desktops e telas grandes*/
+/* telas grandes*/
 @media screen and (min-width:2400px) {
     html,body{
         background-image: linear-gradient(to top,#49a09d, #5f2c82);
